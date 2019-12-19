@@ -1,0 +1,11 @@
+Patient,Age,Gender,Location_main,Location_sub
+GISTRadiomics-001,64,1,0,0
+GISTRadiomics-002,73,0,1,2
+GISTRadiomics-003,52,0,3,5
+GISTRadiomics-004,41,1,2,4
+GISTRadiomics-005,18,1,5,9
+GISTRadiomics-006,95,0,0,1
+GISTRadiomics-007,62,0,4,8
+GISTRadiomics-008,85,0,2,4
+GISTRadiomics-009,73,1,5,10
+GISTRadiomics-010,64,1,4,7
