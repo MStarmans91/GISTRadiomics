@@ -1,0 +1,11 @@
+Patient,GIST,MI_adjusted,KIT_mutation,KIT_exon11
+GISTRadiomics-001,1,1,0,1
+GISTRadiomics-002,1,1,1,0
+GISTRadiomics-003,1,0,2,1
+GISTRadiomics-004,1,1,0,0
+GISTRadiomics-005,1,0,0,1
+GISTRadiomics-006,0,2,2,2
+GISTRadiomics-007,0,2,2,2
+GISTRadiomics-008,0,2,2,2
+GISTRadiomics-009,0,2,2,2
+GISTRadiomics-010,0,2,2,2

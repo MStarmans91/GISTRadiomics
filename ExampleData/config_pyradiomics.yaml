@@ -1,0 +1,22 @@
+featureClass:
+  gldm:
+  glrlm:
+  glszm:
+  ngtdm:
+  shape:
+imageType:
+  Original: {}
+setting:
+  binCount: 16
+  distances:
+  - 1
+  - 3
+  force2D: false
+  force2Ddimension: 0
+  geometryTolerance: 0.0001
+  interpolator: sitkBSpline
+  label: 1
+  normalize: false
+  normalizeScale: 100
+  preCrop: true
+  voxelArrayShift: 300
