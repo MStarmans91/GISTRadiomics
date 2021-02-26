@@ -62,13 +62,13 @@ network.labels_train.append(label_file)
 # Altough it is a configparser object, it works similar as a dictionary
 config = network.defaultconfig()
 
-# The default config from the WORC 2.1.3 version we used, was a stripped
+# The default config from the WORC 3.4.0 version we used, was a stripped
 # version in order to get a quick result. The actual default used for normal
 # experiments is created through the editconfig function.
 config = editconfig(config)
 
 # Specific additions for each model discussed in the paper
-option = 'model_4_imaging'
+option = 'model_3_imaging'
 for case in switch(option):
     if case('model_1_volume'):
         # NOTE: You will need to manually strip the feature files to only keep
@@ -83,9 +83,7 @@ for case in switch(option):
 
         break
 
-        # NOTE: model 2 is done similar to model 3, you will now need to strip the location feature
-
-    if case('model_3_agesex'):
+    if case('model_2_agesex'):
         # Use only the semantic featues = age and gender
         config['SelectFeatGroup']['shape_features'] = 'False'
         config['SelectFeatGroup']['histogram_features'] = 'False'
@@ -113,7 +111,7 @@ for case in switch(option):
 
         break
 
-    if case('model_4_imaging'):
+    if case('model_3_imaging'):
         # Set the non-imaging feature groups to False so they are not used
         config['SelectFeatGroup']['semantic_features'] = 'False'
         config['SelectFeatGroup']['patient_features'] = 'False'
@@ -127,9 +125,7 @@ for case in switch(option):
 
         break
 
-        # NOTE: Model 5 is omitted, as it's better than model 3
-
-    if case('model_6_imagingagesexloc'):
+    if case('model_4_imagingagesexloc'):
         # Append the sources to be used
         network.images_train.append(images)
         network.segmentations_train.append(segmentations)

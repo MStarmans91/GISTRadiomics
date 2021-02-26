@@ -6,10 +6,10 @@ Scripts to compute the features and fit radiomics models as used in the paper
 tumors on CT images using a radiomics approach." M. P. A. Starmans, M. J. M. Timbergen et al.
 
 ## Installation
-For both the feature extraction and model optimization, WORC, version 3.3.3,
+For both the feature extraction and model optimization, WORC, version 3.4.0,
 is required:
 
-    pip install "WORC==3.3.3"
+    pip install "WORC==3.4.0"
 
 ## Usage: Feature Extraction
 The ExtractFeatures.py script can be used to extract all features. We provided
