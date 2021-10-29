@@ -1,7 +1,11 @@
 # GISTRadiomics
 Scripts to compute the features and fit radiomics models as used in the paper
 "Differential diagnosis and molecular stratification of gastrointestinal stromal
-tumors on CT images using a radiomics approach." M. P. A. Starmans, M. J. M. Timbergen et al.
+tumors on CT images using a radiomics approach." M. P. A. Starmans, M. J. M. Timbergen et al.,
+preprint available at https://arxiv.org/abs/2010.06824.
+
+## License
+When using any code from this repository, please cite the above mentioned paper.
 
 ## Installation
 For both the feature extraction and model optimization, WORC, version 3.4.0,
