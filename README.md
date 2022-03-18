@@ -1,12 +1,13 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3839322.svg)](https://doi.org/10.5281/zenodo.3839322)
 
 # GISTRadiomics
-Scripts to compute the features and fit radiomics models as used in the paper
-"Differential diagnosis and molecular stratification of gastrointestinal stromal
-tumors on CT images using a radiomics approach." M. P. A. Starmans,
-M. J. M. Timbergen et al., Accepted.
+Scripts to compute the features and fit radiomics models as used in the following paper:
 
-Before trying out the code in this repository, we advice you to get
+``M. P. A. Starmans, M. J. M. Timbergen, M. Vos, M. Renckens, D. J. Grünhagen,
+G. J. L. H. van Leenders, R. S. Dwarkasing, F. E. J. A. Willemssen, W. J. Niessen,
+C. Verhoef, S. Sleijfer, J. J. Visser, and S. Klein, “Differential Diagnosis and Molecular Stratification of Gastrointestinal Stromal Tumors on CT Images Using a Radiomics Approach,” J Digit Imaging 35, 127–136 (2022). https://doi.org/10.1007/s10278-022-00590-2``
+
+Before using the code in this repository, we advice you to get
 familiar with the WORC package through the WORC tutorial:
 https://github.com/MStarmans91/WORCTutorial.
 
@@ -16,11 +17,11 @@ This package is covered by the open source [APACHE 2.0 License](APACHE-LICENSE-2
 When using this code, please cite this repository and the corresponding paper
 as following:
 
-``M.P.A Starmans. GISTRadiomics. Zenodo (2021). Available from: https://github.com/MStarmans91/GISTRadiomics, DOI: https://doi.org/10.5281/zenodo.3839322.``
+``M.P.A Starmans. GISTRadiomics. Zenodo (2022). Available from: https://github.com/MStarmans91/GISTRadiomics, DOI: https://doi.org/10.5281/zenodo.3839322.``
 
 ``M. P. A. Starmans, M. J. M. Timbergen, M. Vos, M. Renckens, D. J. Grünhagen,
 G. J. L. H. van Leenders, R. S. Dwarkasing, F. E. J. A. Willemssen, W. J. Niessen,
-C. Verhoef, S. Sleijfer, J. J. Visser, and S. Klein, “Differential diagnosis and molecular stratification of gastrointestinal stromal tumors on CT images using a radiomics approach,” Accepted. Preprint available at https://arxiv.org/abs/2010.06824.``
+C. Verhoef, S. Sleijfer, J. J. Visser, and S. Klein, “Differential Diagnosis and Molecular Stratification of Gastrointestinal Stromal Tumors on CT Images Using a Radiomics Approach,” J Digit Imaging 35, 127–136 (2022). https://doi.org/10.1007/s10278-022-00590-2``
 
 
 ## Installation
